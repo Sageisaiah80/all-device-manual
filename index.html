@@ -1,48 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>All Device Manual</title>
   <style>
     body {
+      background-color: #f0f0f0;
       font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
       text-align: center;
-      padding: 40px;
+      padding: 50px;
     }
     h1 {
-      color: #333;
+      color: #222;
     }
-    .links {
-      margin-top: 30px;
-    }
-    a {
-      display: block;
-      margin: 10px 0;
-      padding: 10px 20px;
-      background-color: #fff;
-      border: 1px solid #ccc;
-      color: #0073e6;
-      text-decoration: none;
-      border-radius: 8px;
-      max-width: 300px;
-      margin-left: auto;
-      margin-right: auto;
-      transition: 0.3s;
-    }
-    a:hover {
+    .link-button {
+      display: inline-block;
+      margin: 15px;
+      padding: 15px 25px;
       background-color: #0073e6;
-      color: #fff;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 10px;
+      transition: background-color 0.3s;
+    }
+    .link-button:hover {
+      background-color: #005bb5;
     }
   </style>
 </head>
 <body>
   <h1>All Device Manual</h1>
-  <p>Quick access links for tools and search engines</p>
-  <div class="links">
-    <a href="https://www.youtube.com" target="_blank">📺 YouTube</a>
-    <a href="https://www.google.com" target="_blank">🔍 Google</a>
-    <a href="https://www.startpage.com" target="_blank">🔎 Startpage</a>
-    <a href="https://search.brave.com" target="_blank">🛡 Brave Search</a>
+  <p>Quick links to popular search engines and tools:</p>
+
+  <div>
+    <a class="link-button" href="https://www.youtube.com" target="_blank">📺 YouTube</a>
+    <a class="link-button" href="https://www.google.com" target="_blank">🔍 Google</a>
+    <a class="link-button" href="https://www.startpage.com" target="_blank">🕵️ Startpage</a>
+    <a class="link-button" href="https://search.brave.com" target="_blank">🛡 Brave Search</a>
   </div>
 </body>
 </html>
